@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src= "http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width,innitial scale=1.0">
+        <title>Whack a Mole</title>
+        <link rel="stylesheet" href="mole.css">
+        <script src="mole.js"></script>
+    </head>
+    <body ng-app="">
+        <h1>Whack a Mole</h1>
+        <h2 id="score">0</h2>
+        <div id="board"></div>
+        
+
+        <!-- <button id="playButton" onclick="showLoginPopup()" ><span id="play">Play</span></button>
+        <button id="playButton" onclick="setgame()"><span id="play">Restart</span></button> -->
+        <button id="playButton" onclick="showLoginPopup()" ng-hide="playdisappear"><span id="play">Play</span></button>
+<button id="restartButton" onclick="restartGame()" ng-show="playdisappear"><span id="play1">Restart</span></button>
+
+
+    <!-- Login Popup -->
+    <div id="loginPopup" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closeLoginPopup()">&times;</span>
+            <h2>Info</h2>
+            <form>
+                <input type="text" placeholder="Enter Name" required>
+                
+                <button type="button" onclick="login()" ng-model="playdisapperar" ng-click="playdisappear=true"><span id="enter">Enter</span></button>
+            </form>
+        </div>
+    </div>
+
+       
+
+
+
+
+
+
+
+        
+    </body>
+</html>

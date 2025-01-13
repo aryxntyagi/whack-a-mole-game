@@ -1,0 +1,143 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: url("mario-bg.jpg");
+    background-size: cover;
+
+
+}
+#board{
+    width: 540px;
+    height: 540px;
+    background-color: green;
+    
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+    background: url("soil.png");
+    background-size: cover;
+    border: 3px solid white;
+    border-radius: 25px;
+
+
+}
+#board div{
+    /* //540 by 540 9 hai to 180 by 180 */
+    width: 180px;
+    height: 180px;
+    background-image: url(pipe.png);
+    background-size: cover;
+}
+
+#board div img{
+    width: 100px;
+    height: 100px;
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+
+/* Your existing CSS styles */
+
+.popup {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+}
+
+.popup-content {
+    background-color:rgb(65, 82, 74);
+    margin: 20% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+#playButton{
+    background-color:greenyellow;
+    border-radius: 25%;
+    height: 30px;
+    width: 70px;
+    padding: 3px;
+
+
+}
+#playButton:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+#play{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+
+}
+#restartButton{
+    background-color:greenyellow;
+    border-radius: 25%;
+    height: 30px;
+    width: 70px;
+    padding: 3px;
+
+
+
+}
+#play1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+
+}
+#restartButton:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+button,button:hover{
+    background-color:rgb(193, 198, 198);
+    border-radius: 10px;
+    height: 30px;
+    width: 70px;
+    padding: 3px;
+    cursor: pointer;
+
+}
+input{
+    border-radius: 7px;
+    background-color:rgb(193, 198, 198);
+
+}
+#enter{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
