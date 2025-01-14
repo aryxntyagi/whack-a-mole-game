@@ -16,7 +16,7 @@ How to Play 🎮
 Clone this repository:
 bash
 Copy code
-git clone https://github.com/aryxntyagi/whack-a-mole.git
+git clone https://aryxntyagi.github.io/whack-a-mole-game/
 Navigate to the project directory:
 bash
 Copy code
